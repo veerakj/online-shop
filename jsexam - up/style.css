@@ -1,0 +1,212 @@
+body{
+	margin:0;
+	padding:0;
+	
+	height:638px;
+	font-family: 'Jaapokki', sans-serif, Arial;
+	
+	
+}
+#homepage{
+	background: url(images/home.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 80%;
+    float: left;
+    position: absolute;
+    
+	
+}
+#icon{
+    width: 30px;
+    height: 30px;
+}
+
+#cart{
+   width: 20%;
+    float: right;
+    background: #e31441;
+    height:100%;
+    text-align:center;
+}
+#bag{
+	display: none;
+	overflow: hidden;
+}
+
+
+#menu{
+    background: #d491b0;
+    position: absolute;
+    width: 160px;
+    height: 100%;
+    visibility: hidden;
+}
+.firstMenu{
+	list-style-type: none;
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+}
+.firstMenu a{
+	color:black;
+	text-decoration:none;
+	
+	font-size:15px;
+	font-weight:bold;
+	font-variant:small-caps;
+
+}
+.firstMenu li{
+	border-bottom:2px solid;
+}
+.firstMenu a:hover{
+	color:white;
+	transition:all .3s ease-in-out;
+}
+/*#b1{
+	background:url("images/bag1.jpg");
+	width: 16%;   
+    height: 150px;
+    background-size: 100% 100%;
+    border: 2px solid;
+}
+.desc{
+	border: 2px solid;
+    border-top: 1px solid;
+    width: 150px;
+    line-height: 10px;
+    height: 60px;
+}
+#b2{
+	background:url("images/bag3.jpg");
+}*/
+
+#bag li{
+	display: inline-block;
+    list-style-type: none;
+    width: 16%;
+    /* float:left*/
+    border: 2px solid;
+    margin: 5px
+}
+#bag ul{
+	padding-top:0;
+	margin: 0;
+	font-size:0;
+}
+
+
+
+#b1 {
+	background-image: url("images/bag1.jpg");
+    
+}
+#b2{
+	background-image:url("images/bag3.jpg");
+}
+#b3{
+	background-image:url("images/bag4.jpg");
+}
+#b4{
+	background-image:url("images/bag5.jpg");
+}
+#b5{
+	background-image:url("images/bag6.jpg");
+}
+#b6{
+	background-image:url("images/bag7.jpg");
+}
+#b7{
+	background-image:url("images/bag8.jpg");
+}
+#b8{
+	background-image:url("images/bag9.jpg");
+}
+#b9{
+	background-image:url("images/bag10.jpg");
+}
+
+
+#bk10{
+	background-image:url("images/bag11.jpg");
+}
+
+#bk11{
+	background-image:url("images/bag12.jpg");
+}
+#bk12{
+	background-image:url("images/bag13.jpg");
+}
+#bk13{
+	background-image:url("images/bag14.jpg");
+}
+#bk14{
+	background-image:url("images/bag15.jpg");
+}
+#bk15{
+	background-image:url("images/bag16.jpg");
+}
+#bk16{
+	background-image:url("images/bag17.jpg");
+}
+#bk17{
+	background-image:url("images/bag18.jpg");
+}
+#bk18{
+	background-image:url("images/bag19.jpg");
+}
+#bk19{
+	background-image:url("images/bag20.jpg");
+	
+}
+#bk20{
+	background-image:url("images/bag21.jpg");
+}
+#bk21{
+	background-image:url("images/bag22.jpg");
+}
+
+
+
+.desc{
+	line-height: 5px;
+    border-top: 2px solid;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+.product{
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+.more{
+	width: 100%;
+    
+    border: 2px solid;
+    background: #e6a38d;
+    padding: 10px 20px;
+   
+    cursor: pointer;
+    margin: 30px auto 0 auto;
+    
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.addCart{
+	margin: 30px auto;
+    border: 2px solid;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: block;
+}
+
+table{
+	margin:auto;
+	border-collapse: collapse;
+}
